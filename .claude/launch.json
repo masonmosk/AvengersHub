@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "avengers-hub",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "sites/AvengersHub", "-l", "3333"],
+      "port": 3333
+    },
+    {
+      "name": "teds-hub",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "../TedsHotdogs", "-l", "3334"],
+      "port": 3334
+    }
+  ]
+}
